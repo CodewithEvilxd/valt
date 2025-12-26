@@ -13,7 +13,7 @@ const PORT = process.env.PORT || 4000;
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://v0idbox.vercel.app'
+    'https://valt-96ln.onrender.com'
   ],
   credentials: true
 }));
@@ -27,6 +27,8 @@ app.use(rateLimit({
 }));
 
 app.use('/api', router);
+
+app.get('/favicon.ico', (req, res) => res.status(204).end());
 
 app.get('/', (req, res) => {
   res.send('VoidBox backend is running.');
