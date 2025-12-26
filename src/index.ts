@@ -31,9 +31,9 @@ app.use('/api', router);
 app.get('/favicon.ico', (req, res) => res.status(204).end());
 
 app.get('/', (req, res) => {
-  res.send('VoidBox backend is running.');
+  res.send('ShadowVault backend is running.');
 });
 
 app.listen(PORT, () => {
-  console.log(`VoidBox backend listening on port ${PORT}`);
+  console.log(`ShadowVault backend listening on port ${PORT}`);
 }); 

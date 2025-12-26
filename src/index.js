@@ -20,8 +20,9 @@ app.use((0, express_rate_limit_1.default)({
 }));
 app.use('/api', routes_js_1.default);
 app.get('/', function (req, res) {
-    res.send('VoidBox backend is running.');
+    res.send('ShadowVault backend is running.');
 });
 app.listen(PORT, function () {
-    console.log("VoidBox backend listening on port ".concat(PORT));
+    console.log("ShadowVault backend listening on port ".concat(PORT));
 });
+

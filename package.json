@@ -1,5 +1,5 @@
 {
-    "name": "voidbox-backend",
+    "name": "shadowvault-backend",
     "version": "1.0.0",
     "main": "dist/index.js",
     "type": "module",
@@ -38,3 +38,4 @@
         "typescript": "^5.5.3"
     }
 }
+
